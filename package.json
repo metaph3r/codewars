@@ -1,0 +1,24 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Solutions for Codewars",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaph3r/codewars.git"
+  },
+  "author": "Silvio Glöckner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metaph3r/codewars/issues"
+  },
+  "homepage": "https://github.com/metaph3r/codewars#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2"
+  }
+}
