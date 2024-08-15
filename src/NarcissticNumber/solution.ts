@@ -18,5 +18,12 @@ This may be True and False in your language, e.g. PHP.
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 */
 export function narcissistic(value: number): boolean {
-  return false;
+  const digits: number[] = Array.from(value.toString(), Number);
+  const amountDigits = digits.length;
+
+  const result = digits.reduce(
+    (result, digit) => (result += digit ** amountDigits)
+  );
+
+  return result === value;
 }
